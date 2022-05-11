@@ -12,7 +12,7 @@ public class Log_main {
 
 		while(true) {
 			System.out.println("==로그인 페이지 ==");
-			System.out.println("1. 로그인 2. 회원가입 0. 종료");
+			System.out.println("1. 로그인 2. 회원가입 3. 로그아웃 0. 종료");
 			
 			int input;
 			Member nmem;
@@ -28,6 +28,7 @@ public class Log_main {
 						break;				
 				case 2: jn.register();
 						break;
+				case 3: log_flag=false;
 				
 				case 0: System.out.println("프로그램을 종료합니다.");
 						return;
