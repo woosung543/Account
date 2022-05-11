@@ -29,6 +29,7 @@ public class Log_main {
 				case 2: jn.register();
 						break;
 				case 3: log_flag=false;
+						System.out.println("로그아웃 되었습니다");
 				
 				case 0: System.out.println("프로그램을 종료합니다.");
 						return;
